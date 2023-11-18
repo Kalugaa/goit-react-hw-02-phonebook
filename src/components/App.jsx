@@ -1,6 +1,5 @@
 import { nanoid } from 'nanoid';
 import AddContactForm from './AddContactForm/AddContactForm';
-import Contacts from './Contacts/Contacts';
 import ContactsSearch from './ContactsSearch/ContactsSearch';
 import ContactList from './ContactList/ContactList';
 import Section from './Contacts/Contacts';
