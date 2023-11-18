@@ -87,34 +87,3 @@ export class App extends Component {
     );
   }
 }
-
-// {/* <h2
-//           style={{
-//             margin: '10px 0 10px 0',
-//             fontSize: '25px',
-//           }}
-//         >
-//           Contacts
-//         </h2>
-//         <input
-//           name="filter"
-//           value={filter}
-//           onChange={this.handleChange}
-//         ></input>
-//         <ul style={{ margin: '0' }}>
-//           {filter &&
-//             filteredContacts.map(contact => (
-//               <li key={contact.id} style={{ fontSize: '25px' }}>
-//                 {contact.name} {contact.number}
-//               </li>
-//             ))}
-//         </ul>
-//         {!filter && (
-//           <ul style={{ margin: '0' }}>
-//             {contacts.map(contact => (
-//               <li key={contact.id} style={{ fontSize: '25px' }}>
-//                 {contact.name} {contact.number}
-//               </li>
-//             ))}
-//           </ul>
-//         )} */}
